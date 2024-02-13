@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-
+    
     <ThingDef ParentName="BenchBase">
         <defName>ElectricArtBench</defName>
         <label>electric art bench</label>
@@ -43,6 +43,7 @@
         </statBases>
         <size>(3,1)</size>
         <designationCategory>Production</designationCategory>
+        <uiOrder>2720</uiOrder>
         <passability>PassThroughOnly</passability>
         <pathCost>70</pathCost>
         <hasInteractionCell>True</hasInteractionCell>
@@ -78,5 +79,5 @@
             <li>Electricity</li>
         </researchPrerequisites>
     </ThingDef>
-
+    
 </Defs>
