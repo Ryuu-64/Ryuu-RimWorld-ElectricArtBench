@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="TableSculpting"]</xpath>
+        <value>
+            <uiOrder>2720</uiOrder>
+        </value>
+    </Operation>
+</Patch>

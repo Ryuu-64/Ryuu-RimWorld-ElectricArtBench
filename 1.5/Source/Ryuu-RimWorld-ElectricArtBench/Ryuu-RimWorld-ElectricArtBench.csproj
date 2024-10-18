@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Ryuu.RimWorld.ElectricArtBench</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <Target Name="CopyFiles" AfterTargets="Build">
+        <Copy
+                SourceFiles="$(OutputPath)Ryuu-RimWorld-ElectricArtBench.dll"
+                DestinationFolder="$(MSBuildProjectDirectory)/../../../1.4/Assemblies/"
+        />
+    </Target>
+
+</Project>

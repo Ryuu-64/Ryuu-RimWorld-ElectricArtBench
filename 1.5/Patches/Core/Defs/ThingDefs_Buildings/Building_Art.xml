@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>
+            Defs/ThingDef/recipeMaker/recipeUsers[li[text()='TableSculpting'] and
+            not(li[text()='ElectricArtBench'])]
+        </xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>
+                Defs/ThingDef/recipeMaker/recipeUsers[li[text()='TableSculpting'] and
+                not(li[text()='ElectricArtBench'])]
+            </xpath>
+            <value>
+                <li>ElectricArtBench</li>
+            </value>
+        </match>
+    </Operation>
+</Patch>

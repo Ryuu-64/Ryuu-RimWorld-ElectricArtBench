@@ -5,9 +5,7 @@
     <packageId>Ryuu.RimWorld.ElectricArtBench</packageId>
     <supportedVersions>
         <li>1.4</li>
+        <li>1.5</li>
     </supportedVersions>
     <description>Electric Art Bench</description>
 </ModMetaData>
-
-
-
